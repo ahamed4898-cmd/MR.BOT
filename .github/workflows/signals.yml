@@ -1,7 +1,7 @@
 name: signals
 on:
   schedule:
-    - cron: '4,19,34,49 * * * *'
+    - cron: '2,17,32,47 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
