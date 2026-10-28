@@ -2,9 +2,27 @@
   "breakEvenAfterTP1": true,
   "maxAgeCandles": 3,
   "watches": [
-    { "name": "BTC-liq", "symbol": "BTC/USD", "source": "binance",    "tf": "15m", "indicator": "liq" },
-    { "name": "ETH-liq", "symbol": "ETH/USD", "source": "binance",    "tf": "15m", "indicator": "liq", "enabled": false },
-    { "name": "XAU-liq", "symbol": "XAU/USD", "source": "twelvedata", "tf": "15m", "indicator": "liq", "enabled": false },
-    { "name": "EUR-liq", "symbol": "EUR/USD", "source": "twelvedata", "tf": "15m", "indicator": "liq", "enabled": false }
+    {
+      "name": "XAUUSD-smc",
+      "symbol": "XAU/USD",
+      "source": "twelvedata",
+      "tf": "15m",
+      "indicator": "smc",
+      "params": {
+        "mode": "Balanced",
+        "sw": 3,
+        "bosAge": 80,
+        "maxLeg": 40,
+        "age": 60,
+        "fib": 0.25,
+        "minGap": 0.1,
+        "maxOB": 3,
+        "buf": 0.1,
+        "maxRisk": 5,
+        "tp1Pct": 0.5,
+        "useSell": true,
+        "useBuy": true
+      }
+    }
   ]
 }
