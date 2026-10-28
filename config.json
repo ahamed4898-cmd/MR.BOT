@@ -1,7 +1,6 @@
 {
   "breakEvenAfterTP1": true,
   "maxAgeCandles": 3,
-  "bot_token": "8216672602:AAHVzXR2VALPudPNYfaYyVliiCTFivl_UrM"
   "watches": [
     {
       "name": "BTCUSD-smc",
