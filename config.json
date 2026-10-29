@@ -3,9 +3,9 @@
   "maxAgeCandles": 3,
   "watches": [
     {
-      "name": "XAUUSD-smc",
-      "symbol": "XAU/USD",
-      "source": "twelvedata",
+      "name": "SOLUSD-smc",
+      "symbol": "SOL/USD",
+      "source": "binance",
       "tf": "15m",
       "indicator": "smc",
       "params": {
