@@ -10,7 +10,7 @@
       "indicator": "smc",
       "params": {
         "mode": "Balanced",
-        "sw": 7,
+        "sw": 5,
         "bosAge": 80,
         "maxLeg": 40,
         "age": 60,
