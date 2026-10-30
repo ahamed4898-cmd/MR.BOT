@@ -3,8 +3,8 @@
   "maxAgeCandles": 3,
   "watches": [
     {
-      "name": "BTCUSD-smc",
-      "symbol": "BTC/USD",
+      "name": "ADAUSD-smc",
+      "symbol": "ADA/USD",
       "source": "binance",
       "tf": "15m",
       "indicator": "smc",
