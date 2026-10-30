@@ -3,14 +3,14 @@
   "maxAgeCandles": 3,
   "watches": [
     {
-      "name": "ADAUSD-smc",
-      "symbol": "ADA/USD",
-      "source": "binance",
-      "tf": "15m",
+      "name": "XAUUSD-smc",
+      "symbol": "XAU/USD",
+      "source": "twelvedata",
+      "tf": "5m",
       "indicator": "smc",
       "params": {
         "mode": "Balanced",
-        "sw": 3,
+        "sw": 7,
         "bosAge": 80,
         "maxLeg": 40,
         "age": 60,
